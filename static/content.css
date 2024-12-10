@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+
+a {
+    border: 3px dashed rgb(131, 236, 131);
+    padding: 1rem;
+    background-color: rgb(20, 98, 167);
+    color: #f4f4f4;
+}
+
+a:hover {
+    border: 3px dotted rgb(131, 194, 236);
+    padding: 1rem;
+    background-color: aliceblue;
+    color:#333;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: #777;
+}
